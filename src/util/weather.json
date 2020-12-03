@@ -5,30 +5,30 @@
   },
   "1": {
     "name":"sunny",
-    "emoji":":sunny:️"
+    "emoji":"<:Weather_Icon_Clear_Day:731570171147190433>"
   },
   "2": {
     "name":"rain",
-    "emoji":":cloud_rain:"
+    "emoji":"<:Weather_Icon_Rain:731570172216999936>"
   },
   "3": {
     "name":"partly cloudy",
-    "emoji":":white_sun_small_cloud:"
+    "emoji":"<:Weather_Icon_Partly_Cloudy_Day:731570171835056272>"
   },
   "4": {
     "name":"cloudy",
-    "emoji":":cloud:"
+    "emoji":"<:Weather_Icon_Cloudy:731570171596243134>"
   },
   "5": {
     "name":"windy",
-    "emoji":":leaves:"
+    "emoji":"<:Weather_Icon_Windy:731570172426453083>"
   },
   "6": {
     "name":"snow",
-    "emoji":":snowflake:️"
+    "emoji":"<:Weather_Icon_Snow:731570172569321492>"
   },
   "7": {
     "name":"fog",
-    "emoji":":foggy:"
+    "emoji":"<:Weather_Icon_Foggy:731570171444985929>"
   }
 }

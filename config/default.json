@@ -2,8 +2,8 @@
   "db": {
     "host": "127.0.0.1",
     "user": "poracleuser",
-    "password": "YourStrongPassw0rd!",
-    "database": "poracledb",
+    "password": "hackme",
+    "database": "poracledatabase",
     "port": "3306",
     "connectionLimit": 30,
     "connectTimeout": 60000
@@ -14,7 +14,7 @@
     "logSize": 25,
     "host": "127.0.0.1",
     "port": "3030",
-    "imgurl": "https://raw.githubusercontent.com/KartulUdus/PoracleJS/master/src/util/images/",
+    "imgurl": "https://someurl.com",
     "max_pokemon": 500,
     "monsterMinimumTimeTillHidden": 60,
     "ipWhitelist": [],
@@ -31,8 +31,8 @@
   "geocoding": {
     "provider": "OSM",
     "staticProvider": "OSM",
-    "geocodingKey":["Your Google Geocoding Key if you Use google as provider"],
-    "staticKey":["Your MapQuest or Google Key"],
+    "geocodingKey":[],
+    "staticKey":[],
     "width": 250,
     "height": 175,
     "zoom": 15,
@@ -44,13 +44,13 @@
   "discord": {
     "enabled": true,
     "token": [],
-    "channel": "general",
+    "channel": "channelname",
     "userRole": "roleNameHere",
-    "admins": ["222742859059560458"],
+    "admins":  ["userid"],
     "prefix": "!",
     "typereact": false,
     "limitsec": 30,
-    "limitamount": 20,
+    "limitamount": 90,
     "iv_colors": [
         "#9D9D9D",
         "#FFFFFF",
@@ -62,7 +62,7 @@
   },
 
   "commands": {
-    "poracle": "",
+    "poracle": "register",
     "area": "",
     "backup": "",
     "channel": "",
@@ -75,9 +75,9 @@
     "start": "",
     "stop": "",
     "track": "",
-    "tracked": "",
+    "tracked": "list",
     "unregister": "",
-    "untrack": "",
+    "untrack": "delete",
     "version": "",
     "webhook": "",
     "adminid": ""
